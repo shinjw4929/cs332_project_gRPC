@@ -1,0 +1,8 @@
+[debug] > Exec(compile, None, None)
+[debug] Evaluating tasks: Compile / compile
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] Compiling 1 protobuf files to C:\Users\sjw49\IdeaProjects\grpc_test\target\scala-2.13\src_managed\main\scalapb
+[info] compiling 5 Scala sources to C:\Users\sjw49\IdeaProjects\grpc_test\target\scala-2.13\classes ...
+[info] done compiling
+[success] Total time: 9 s, completed 2024. 11. 7. 오후 8:25:30
+[debug] > Exec(idea-shell, None, None)
