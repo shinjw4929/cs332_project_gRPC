@@ -32,6 +32,21 @@
       </state>
     </system>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "shinjw4929"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/shinjw4929/cs332_project_gRPC",
+    "accountId": "2313ec8c-31b2-4692-be65-0fa639d98e81"
+  }
+}]]></component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -47,6 +62,7 @@
   "keyToString": {
     "Application.GreeterClient.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/sjw49/IdeaProjects/grpc_final",
@@ -107,7 +123,7 @@
       <updated>1731216204467</updated>
       <workItem from="1731216205567" duration="111000" />
       <workItem from="1731216323793" duration="43000" />
-      <workItem from="1731216372960" duration="1339000" />
+      <workItem from="1731216372960" duration="1667000" />
     </task>
     <servers />
   </component>
