@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/grpc_final.iml" filepath="$PROJECT_DIR$/.idea/modules/grpc_final.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/grpc_final.grpc_final-build.iml" filepath="$PROJECT_DIR$/.idea/modules/grpc_final.grpc_final-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/grpc_file_test.iml" filepath="$PROJECT_DIR$/.idea/modules/grpc_file_test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/grpc_file_test.grpc_file_test-build.iml" filepath="$PROJECT_DIR$/.idea/modules/grpc_file_test.grpc_file_test-build.iml" />
     </modules>
   </component>
 </project>
