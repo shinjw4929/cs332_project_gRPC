@@ -1,1 +1,0 @@
-[[{"${BASE}/src/main/protobuf/hello.proto":["${BASE}/target/scala-2.13/classes/hello.proto"]},{"${BASE}/target/scala-2.13/classes/hello.proto":["${BASE}/src/main/protobuf/hello.proto"]}],{"${BASE}/src/main/protobuf/hello.proto":{"file":"file:///C:/Users/sjw49/IdeaProjects/grpc_test/src/main/protobuf/hello.proto","lastModified":1730978554734}}]
