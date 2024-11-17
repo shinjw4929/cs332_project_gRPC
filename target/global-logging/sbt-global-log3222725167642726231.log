@@ -1,0 +1,93 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\sjw49\AppData\Local\Temp\idea4.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\sjw49\AppData\Local\Temp\idea4.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.3 (IBM Corporation Java 11.0.24)
+[debug] Load.defaultLoad until apply took 51.3098ms
+[debug]           Load.loadUnit: plugins took 35.6911ms
+[debug]           Load.loadUnit: defsScala took 0.1303ms
+[debug] [Loading] Scanning directory C:\Users\sjw49\IdeaProjects\sortNpartition\project
+[debug]             Load.loadUnit: mkEval took 2.3301ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\sjw49\IdeaProjects\sortNpartition\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 8.7811 ms
+[info] loading settings for project sortnpartition-build from idea4.sbt ...
+[debug]               Load.resolveProject(sortnpartition-build) took 25.7466ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id sortnpartition-build, base: C:\Users\sjw49\IdeaProjects\sortNpartition\project, plugins: List(<none>))) took 42.1339ms
+[debug] [Loading] Done in C:\Users\sjw49\IdeaProjects\sortNpartition\project, returning: (sortnpartition-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 178.5218ms
+[debug]           Load.loadUnit: cleanEvalClasses took 3.6135ms
+[debug]         Load.loadUnit(file:/C:/Users/sjw49/IdeaProjects/sortNpartition/project/, ...) took 220.3541ms
+[debug]       Load.apply: load took 336.1747ms
+[debug]       Load.apply: resolveProjects took 2.4138ms
+[debug]       Load.apply: finalTransforms took 48.51ms
+[debug]       Load.apply: config.delegates took 3.5126ms
+[debug]       Load.apply: Def.make(settings)... took 408.8056ms
+[debug]       Load.apply: structureIndex took 84.0886ms
+[debug]       Load.apply: mkStreams took 0.842ms
+[info] loading project definition from C:\Users\sjw49\IdeaProjects\sortNpartition\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 2159.044ms
+[debug]     Load.loadUnit: defsScala took 0.0022ms
+[debug] [Loading] Scanning directory C:\Users\sjw49\IdeaProjects\sortNpartition
+[debug]       Load.loadUnit: mkEval took 0.1846ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 1.6825 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 20.3681ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\sjw49\IdeaProjects\sortNpartition, plugins: List(<none>))) took 22.924ms
+[debug] [Loading] Done in C:\Users\sjw49\IdeaProjects\sortNpartition, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1956.9097ms
+[debug]     Load.loadUnit: cleanEvalClasses took 7.1839ms
+[debug]   Load.loadUnit(file:/C:/Users/sjw49/IdeaProjects/sortNpartition/, ...) took 4124.0102ms
+[debug] Load.apply: load took 4133.441ms
+[debug] Load.apply: resolveProjects took 0.1031ms
+[debug] Load.apply: finalTransforms took 24.1897ms
+[debug] Load.apply: config.delegates took 0.3198ms
+[debug] Load.apply: Def.make(settings)... took 73.5159ms
+[debug] Load.apply: structureIndex took 38.511ms
+[debug] Load.apply: mkStreams took 0.0055ms
+[info] set current project to sortNpartition (in build file:/C:/Users/sjw49/IdeaProjects/sortNpartition/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(idea-shell, None, None)

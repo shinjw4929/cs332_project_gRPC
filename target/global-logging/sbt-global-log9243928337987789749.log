@@ -1,0 +1,186 @@
+[debug] > Exec(;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download, resolveSourceClassifiers, resolveSbtClassifiers" ;preferScala2;*/*:dumpStructureTo C:/Users/sjw49/AppData/Local/Temp/sbt-structure.xml; session clear-all, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.3 (IBM Corporation Java 11.0.24)
+[debug] Load.defaultLoad until apply took 2.1593ms
+[debug]           Load.loadUnit: plugins took 28.89ms
+[debug]           Load.loadUnit: defsScala took 0.0028ms
+[debug] [Loading] Scanning directory C:\Users\sjw49\IdeaProjects\sortNpartition\project
+[debug]             Load.loadUnit: mkEval took 0.2725ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\sjw49\IdeaProjects\sortNpartition\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 0.8303 ms
+[info] loading settings for project sortnpartition-build from idea4755.sbt ...
+[debug]               Load.resolveProject(sortnpartition-build) took 1.362ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id sortnpartition-build, base: C:\Users\sjw49\IdeaProjects\sortNpartition\project, plugins: List(<none>))) took 2.5811ms
+[debug] [Loading] Done in C:\Users\sjw49\IdeaProjects\sortNpartition\project, returning: (sortnpartition-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 16.0524ms
+[debug]           Load.loadUnit: cleanEvalClasses took 1.1662ms
+[debug]         Load.loadUnit(file:/C:/Users/sjw49/IdeaProjects/sortNpartition/project/, ...) took 46.8098ms
+[debug]       Load.apply: load took 48.0216ms
+[debug]       Load.apply: resolveProjects took 0.0926ms
+[debug]       Load.apply: finalTransforms took 5.5721ms
+[debug]       Load.apply: config.delegates took 0.4716ms
+[debug]       Load.apply: Def.make(settings)... took 34.7953ms
+[debug]       Load.apply: structureIndex took 9.7434ms
+[debug]       Load.apply: mkStreams took 0.003ms
+[info] loading project definition from C:\Users\sjw49\IdeaProjects\sortNpartition\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 215.3336ms
+[debug]     Load.loadUnit: defsScala took 0.0032ms
+[debug] [Loading] Scanning directory C:\Users\sjw49\IdeaProjects\sortNpartition
+[debug]       Load.loadUnit: mkEval took 0.3314ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 1.3551 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 87.7451ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\Users\sjw49\IdeaProjects\sortNpartition, plugins: List(<none>))) took 89.6126ms
+[debug] [Loading] Done in C:\Users\sjw49\IdeaProjects\sortNpartition, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 577.6957ms
+[debug]     Load.loadUnit: cleanEvalClasses took 3.3841ms
+[debug]   Load.loadUnit(file:/C:/Users/sjw49/IdeaProjects/sortNpartition/, ...) took 796.8896ms
+[debug] Load.apply: load took 798.4509ms
+[debug] Load.apply: resolveProjects took 0.104ms
+[debug] Load.apply: finalTransforms took 43.4195ms
+[debug] Load.apply: config.delegates took 0.2974ms
+[debug] Load.apply: Def.make(settings)... took 54.7999ms
+[debug] Load.apply: structureIndex took 9.9824ms
+[debug] Load.apply: mkStreams took 0.003ms
+[info] set current project to sortNpartition (in build file:/C:/Users/sjw49/IdeaProjects/sortNpartition/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download, resolveSourceClassifiers, resolveSbtClassifiers", None, None)
+[info] Defining Global / sbtStructureOptions
+[info] The new value will be used by Global / ssOptions
+[debug] Defining 
+[debug] 	Global / sbtStructureOptions
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Global / ssOptions
+[info] Reapplying settings...
+[info] set current project to sortNpartition (in build file:/C:/Users/sjw49/IdeaProjects/sortNpartition/)
+[debug] > Exec(preferScala2, None, None)
+[debug] > Exec(*/*:dumpStructureTo C:/Users/sjw49/AppData/Local/Temp/sbt-structure.xml, None, None)
+[debug] Evaluating tasks: Global / dumpStructureTo
+[warn] sbt 0.13 shell syntax is deprecated; use slash syntax instead: Global / dumpStructureTo
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parallel-collections_2.13/2.13.15/scala-parallel-collections_2.13-2.13.15.pom
+[info] downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parallel-collections_2.13/2.13.15/scala-parallel-collections_2.13-2.13.15.pom
+[info] downloading https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parallel-collections_2.13/2.13.15/scala-parallel-collections_2.13-2.13.15.pom.sha1
+[info] downloaded https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parallel-collections_2.13/2.13.15/scala-parallel-collections_2.13-2.13.15.pom.sha1
+[warn] 
+[warn] 	Note: Unresolved dependencies path:
+[error] sbt.librarymanagement.ResolveException: Error downloading org.scala-lang.modules:scala-parallel-collections_2.13:2.13.15
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\sjw49\.ivy2\localorg.scala-lang.modules\scala-parallel-collections_2.13\2.13.15\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parallel-collections_2.13/2.13.15/scala-parallel-collections_2.13-2.13.15.pom
+[error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:344)
+[error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:313)
+[error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+[error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:313)
+[error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+[error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:59)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:133)
+[error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:73)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:146)
+[error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:146)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:127)
+[error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:219)
+[error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:160)
+[error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3687)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+[error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+[error] 	at sbt.Execute.work(Execute.scala:291)
+[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[error] 	at java.base/java.lang.Thread.run(Thread.java:839)
+[error] sbt.librarymanagement.ResolveException: Error downloading org.scala-lang.modules:scala-parallel-collections_2.13:2.13.15
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\sjw49\.ivy2\localorg.scala-lang.modules\scala-parallel-collections_2.13\2.13.15\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parallel-collections_2.13/2.13.15/scala-parallel-collections_2.13-2.13.15.pom
+[error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:344)
+[error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:313)
+[error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+[error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:313)
+[error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+[error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:59)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:133)
+[error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:73)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:146)
+[error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:146)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:127)
+[error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:219)
+[error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:160)
+[error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3687)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+[error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+[error] 	at sbt.Execute.work(Execute.scala:291)
+[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+[error] 	at java.base/java.lang.Thread.run(Thread.java:839)
+[error] (update) sbt.librarymanagement.ResolveException: Error downloading org.scala-lang.modules:scala-parallel-collections_2.13:2.13.15
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\sjw49\.ivy2\localorg.scala-lang.modules\scala-parallel-collections_2.13\2.13.15\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parallel-collections_2.13/2.13.15/scala-parallel-collections_2.13-2.13.15.pom
+[error] (ssExtractDependencies) sbt.librarymanagement.ResolveException: Error downloading org.scala-lang.modules:scala-parallel-collections_2.13:2.13.15
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\sjw49\.ivy2\localorg.scala-lang.modules\scala-parallel-collections_2.13\2.13.15\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parallel-collections_2.13/2.13.15/scala-parallel-collections_2.13-2.13.15.pom
+[error] Total time: 1 s, completed 2024. 11. 14. 오후 10:32:59
+[debug] > Exec(idea-shell, None, None)

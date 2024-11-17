@@ -1,0 +1,18 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\sjw49\AppData\Local\Temp\idea2936.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\sjw49\AppData\Local\Temp\idea2936.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.8.3 (IBM Corporation Java 11.0.24)
+[debug] Load.defaultLoad until apply took 40.7217ms
+[debug]           Load.loadUnit: plugins took 30.1068ms
+[debug]           Load.loadUnit: defsScala took 0.1221ms
+[debug] [Loading] Scanning directory C:\Users\sjw49\IdeaProjects\sortNpartition\project
+[debug]             Load.loadUnit: mkEval took 2.4866ms
